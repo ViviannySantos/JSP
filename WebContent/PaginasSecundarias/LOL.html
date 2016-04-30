@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+
+<!--
+	Authoress: Vivianny Santos;
+	Modificado: 20/03/2016
+-->
+
+<html lang="pt-br">
+
+	<head>
+		<title>IGDb</title>
+		<meta charset="utf-8"/>
+		<script type="text/javascript" src="Scripts/Scripts.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="estilos/header.css">
+		<link rel="stylesheet" type="text/css" href="estilos/style.css">
+		<link rel="stylesheet" type="text/css" href="estilos/footer.css">
+		<link rel="icon" href="imagens/favicon.png">
+	</head>
+
+	<body id="ipaginaJogos">
+	
+		<!--Author from header: Caique Campos-->		
+		<header id="mainHeader">
+			<nav>
+				<ul id="menuEsquerdo">
+					<li><a href="../index.html"><img src="imagens/icones/inicio.png" class="icons"></a></li>
+					<li><a href="../Lançamentos.html">Lançamentos</a></li>
+					<li><a href="../Ranking.html">Ranking dos Jogos</a></li>
+					<li><a href="../todosJogos.html">Todos os Jogos</a></li>
+				</ul>
+
+				<ul id="menuDireito">
+					<li><a href="../CadastroPrincipal.html">Cadastro</a></li>
+					<li><a href="../Login.html">Login</a></li>
+				</ul>
+			</nav><br/>
+			<h1><a href="index.html"><img src="imagens/mainscreen.png" height="55px" width="180px"/></a></h1>
+		</header>
+		
+		<section id ="conteudo">
+			<h2 id="tituloPostagem">League of Legends</h2>
+			<img id="iLOL" name="iLOL" src="imagens\jogos\LOL.jpg" alt="Imagem do jogo" class="imgtr"/>
+			<p id="pLOL">League of Legends é um jogo do gênero multiplayer online battle arena (MOBA) 
+				em terceira pessoa.Ele possui quatro modos de jogos: Summoner's Rift,
+				Twisted Treeline, Crystal Scar e Howling Abyss.Os jogadores competem em
+				partidas que duram em média de 20 a 50 minutos. Em cada modo do jogo, 
+				o time trabalha em conjunto para alcançar os objetivos e, consequentemente, 
+				a vitória. Existem também objetivos intermédios em cada modo do jogo que dão ao 
+				jogador e para a sua equipe vantagens em alcançar a vitória.</p>
+
+				<section id="descricaoJogo">	
+					<label id="lbProdutora">Produtor(s):</label><h4 id="produtora">Steven Snow,Travis George</h4><br/>
+					<label id="lbDesenvolvedor">Desenvolvedor(s):</label><h4 id="desenvolvedora">Valve</h4><br/>
+					<label id="lbPlataforma">Plataforma(s):</label><h4 id="plataforma">Microsoft Windows, OS X</h4><br/>
+					<label id="lbDataLançamento">Data de Lançamento:</label><h4 id="dataLançamento">27 de outubro de 2009</h4><br/>
+					<label id="lbGenero">Gênero(s):</label><h4 id="genero">Multiplayer online battle arena</h4><br/>
+					<label id="lbModosDeJogo">Modos de jogo:</label><h4 id="modosDeJogo">Single player,multiplayer</h4><br/>
+					<label id="lbClassificação">Classificação:</label><h4 id="classificação">12+</h4><br/>
+				</section>	
+				
+				<section id= "comentario">
+					<form id="iFormComentario" name="nFormComentario" action="" method="post">
+						<h2>Comentário:</h2>
+						<textarea id="iComentario" rows="10" cols="80"></textarea>	
+						<input type="button" id="iBotaoConfirmar" class="button" value="Confirmar" onClick="validarComentario()">
+					</form>
+				</section>     
+				
+		</section>
+		
+		<aside>
+			<h1>Outras materias</h1>
+
+			<article class="materias">
+				<a href="angryBirds.html">
+						<h1>Angry Birds</h1>
+
+						<img src="imagens/jogos/angryBirds.jpg">
+
+						<p>Angry Birds é uma franquia de jogos de vídeo criado por finlandesa desenvolvedor de jogos de computador Rovio Entertainment.Inspirado por Crush the Castle , o primeiro jogo da série foi inicialmente...</p>
+					</a>
+			</article>
+			<article class="materias">
+				<a href="cabal.html">
+						<h1>Cabal Online</h1>
+
+						<img src="imagens/jogos/Cabal.jpg">
+
+						<p>Cabal Online é um free-to-play, 3D massively multiplayer online role-playing game desenvolvido pela empresa sul-coreana ESTsoft . Existem diferentes localizações do jogo para vários países e regiões...</p>
+					</a>
+			</article>
+
+			<article class="materias">
+				<a href="counterStrike.html">
+						<h1>Counter Strike: Global Offensive</h1>
+
+						<img src="imagens/jogos/cs.jpg">
+
+						<p>Counter-Strike: Global Offensive (CS:GO) é um jogo de tiro em primeira pessoa online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment...</p>
+					</a>
+			</article>
+		</aside>	
+		
+		<footer id="mainFooter">
+			<h6>IGDb © 2016.1. All rights reserved.</h6>
+		</footer>
+
+	</body>
+</html>

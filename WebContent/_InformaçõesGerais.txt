@@ -1,0 +1,122 @@
+IGBb - Internet Game Database
+
+Grupo
+Caique Campos Santos
+Iuri Brindeiro
+Vivianny Santos
+Diego Harrison
+Alexsandro Andrade
+
+Caique Campos Santos
+ * Index
+ * Login
+ * Cadastro Novidades
+ * Cadastro Principal
+ * estilos/styleAuxiliar
+ * estilos/styleBody
+ * estilos/styleHeader
+ * estilos/styleFormPostagem
+ * scripts/validaLogin
+ * scripts/validaPost
+
+Iuri Brindeiro
+ * Cadastro Jogos
+ * Alterações em todas as páginas de jogos PC/Console.
+ * estilos/EstiloCadastos/style
+ * estilos/EstiloCadastos/cadastro
+ * Alterações em Scripts(criação de funcoes: validaForm(), limparErro())
+
+Vivianny ROCHELLY dos Santos Vieira	
+ * Cadastro de Usuário.
+ * paginasSecundarias/Scripts/Scripts
+ * Configurações (CSS) das páginas de jogos. 
+ * Configuração do estilo "styleTodosJogos".
+ * Criação dos Scripts "formatar" em scripts/Scripts.
+ * Criação da página "todosJogos".
+ * Criação da página "cadastroDesenvolvedores".
+
+Vivianny Santos / Caique Santos 
+ * Ligação das páginas.
+
+Iuri Brindeiro / Vivianny Rochelly
+ * Criação de todas as paginas secundarias.
+ 
+ Francisco Alexsandro de Andrade
+ *CadastroJogosCel - HTML/CSS/JS
+ *RankingJogos - HTML/CSS
+ *Novidades2016 = HTML/CSS
+
+Diego Harrison de Sousa Mesquita
+ * Produtoras - HTML
+ * Produtoras_Ricas - HTML
+ * estiloProdutoras - CSS
+ * estiloProdutorasRicas - CSS
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+------------Validação de formulario------------
+
+Vivianny Santos:
+
+ * Uso de html5 para validar a página cadastro de usuário - nos campos "nome","Data de Nascimento","telefone", "CEP","Endereço de E-mail" e "Senha".
+
+Iuri Brindeiro:
+
+ * Validação na página cadastroJogos - nos os campos Nome,Data de Lançamento, Desenvolvedores, Plataformas, Modos de Jogo e Classificação.
+
+ * Validação na página cadastroDesenvolvedores - nos os campos "Nome","Data de fundação", "Fundador","sede","Quantidade de empregados","Produto"
+
+Francisco Alexsandro:
+
+ * Validação na página cadastroJogosCel - nos os campos "Nome","Data de Lançamento".
+
+Caique Campos:
+
+ * Validação na página cadastroNovidades - nos os campos "Titulo" e "Conteudos da postagem".
+
+ * Validação na página login - nos os campos "login" e "senha".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
